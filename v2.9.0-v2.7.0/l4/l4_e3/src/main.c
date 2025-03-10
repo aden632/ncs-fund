@@ -10,6 +10,7 @@
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/sys/printk.h>
 #include <zephyr/logging/log.h>
+#include <zephyr/drivers/uart.h>
 
 #define MAX_NUMBER_FACT 10
 #define SLEEP_TIME_MS	10 * 60 * 1000
